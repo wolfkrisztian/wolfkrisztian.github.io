@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page2.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -42,7 +42,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 55,
+    "uniqCompNum": 59,
     "versionPublish": "4.12.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -2585,6 +2585,28 @@
           "_customHTML": "<section class=\"testimonials3\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Média mérete\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"image\" title=\"Háttérkép\" value=\"../_images/background5.jpg\">\n        <input type=\"color\" title=\"Háttérszín\" value=\"#ffffff\" selected>\n        <input type=\"video\" title=\"Háttérvideó\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Fedés\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Átlátszóság\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\n                   Több mint 20 éve élek Korfun. 2010-ben egy EU-s pályázat segítségével nyitottam meg társközvetítő irodámat, és kezdtem el esküvőszervezéssel is foglalkozni. Számtalan, szebbnél szebb rendezvénnyel a hátam mögött ajánlom magunkat a mediterrán életérzés szerelmeseinek.\n                </p>\n                <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">\n                   Szedlák Valéria</p>\n                <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">\n                   Esküvőszervező</p>\n            </div>\n\n            <div class=\"mbr-figure pl-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/19310072-bca2013c401ed1f5f9a6ebacf1c00caf-wm-640x960.jpg\" alt title>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s2DZ5ZGq4c",
           "_anchor": "testimonials3-1e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Háttérszín\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Húsz éve is van tán, mikor először utaztam Korfura mint turista. Szerelem lett, az első látásra. Elhatároztam, hogy ezen a szigeten fogok élni. Erről álmodoztam, terveket főztem, nekilódultam, megtorpantam, próbálkoztam, sokat dolgoztam... És most itt vagyok.\n<span style=\"font-size: 1rem;\">Egyedül jöttem, és itt sem várt senki. Házikót béreltem, elvállaltam mindenféle munkát, közben pedig jártam a szigetet, ismerkedtem az itteni életformával, az emberekkel, fotózgattam, rajzolgattam, könyveket írtam. &nbsp;</span></p><p>2010-ben egy Eu-s program anyagi segítségével egy kis vállalkozást indítottam, Korfun az első és egyetlen ilyet, egy házaságközvetítő irodát.\n<span style=\"font-size: 1rem;\">És innen indult ennek kibővítése, egy rendezvényszervező szolgáltatás: korfui esküvők, eljegyzések, meglepetés-lánykérések, házassági évfordulók teljes körű megszervezése külföldieknek.&nbsp;</span></p><p><span style=\"font-size: 1rem;\"><br></span><span style=\"font-size: 1rem;\">A külföldön kötött esküvők általában egy kaptafára készülnek: az ifjú pár kiválaszt egy csomagot egy utazási iroda ajánlatai közül. Korfun is több ilyen lehetőség akad. De Korfu annyira sokféle, olyan színes, olyan inspiráló: én azt szeretném, ha az én ifjú párjaim álmodnának egy nagyot, egy rendkívülit – és én megvalósítom közös életük első nagy álmát !&nbsp;</span></p><p>A szervezés sűrű és mindenre kiterjedő ” kérdezz-felelek”email-váltással kezdődik. Az álmokból kézzel fogható, megvalósítandó terv születik, természetesen mindenben az ifjú pár kívánalmai szerint. Polgári vagy jelképes esküvő? Kettesben vagy szeretteikkel? Tengerparton? Az Óvárosban? Elegáns yachtklubban? Lóháton? Búvárkodás közben? Kis hajó fedélzetén? Teliholdkor egy aprócska kolostorszigeten? Hamisítatlan görög tavernában?Az én fiatal párjaim bátran meglódíthatják a fantáziájukat!&nbsp;\n</p><p>A többi az én dolgom. Megérkezésük pillanatától kísérem őket, leveszek minden gondot a vállukról – nekik a boldog várakozás, és a feledhetetlen élmény marad.&nbsp;\n</p><p>A fiatal pár elképzelései alapján egy forgatókönyvet írok, és küldök el nekik. Itt már lefixáljuk a legapróbb részleteket is – a virágcsokortól kezdve a torta ízéig, a menyasszony frizurájától az elhangzó zenékig, a menü részleteitől a fotózás helyszínéig, és árajánlatot küldök. Ha elfogadják, szerződünk. l\n</p><p>Nem csak esküvők! Meglepi-lánykérés, meglepi házassági évforduló. Jelképes fogadalomtétel. Sportos , Korfut felfedező programok, jellegzetes rendezvények – pl. Görög Húsvét, védőszentek szülinapi karneváljai, falusi mulatságok - a korfui nyaralást igazán feledhetetlenné tévő pillanatok.\n</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s2UUkmy2rZ",
+          "_anchor": "content1-1m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
