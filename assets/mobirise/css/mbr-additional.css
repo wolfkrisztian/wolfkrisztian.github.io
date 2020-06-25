@@ -2623,7 +2623,7 @@ section.lazy-placeholder:after {
 .cid-s2DZ5ZGq4c {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #f3f4f6;
+  background-color: #ffffff;
 }
 .cid-s2DZ5ZGq4c .testimonial-text {
   font-style: italic;
@@ -2747,6 +2747,44 @@ section.lazy-placeholder:after {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+.cid-s2EenZRjg0 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-s2EenZRjg0 .card {
+  align-self: stretch;
+}
+.cid-s2EenZRjg0 .card-box {
+  height: 100%;
+  background-color: #efefef;
+  padding: 2rem;
+}
+.cid-s2EenZRjg0 h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-s2EenZRjg0 p {
+  color: #767676;
+  text-align: left;
+}
+.cid-s2EenZRjg0 .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-s2EenZRjg0 .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-s2EenZRjg0 .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
 .cid-s2grZfiNhy {
   padding-top: 60px;
